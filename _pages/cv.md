@@ -100,10 +100,10 @@ Publications
 Teaching
 ======
   <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-talk-teaching.html  %}
+    {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
   
-Teaching Assistance
+Teaching Associate
 ======
   * Machine Learning
   * Optimization
