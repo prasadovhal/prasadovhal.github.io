@@ -97,10 +97,10 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
+Teaching
 ======
   <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
+    {% include archive-single-talk-teaching.html  %}
   {% endfor %}</ul>
   
 Teaching Assistance
