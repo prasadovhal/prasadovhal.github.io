@@ -11,9 +11,17 @@ redirect_from:
 ***"Life is like a [chaotic system](https://en.wikipedia.org/wiki/Chaos_theory){:target="_blank"}, where you might need to find another basin of attractor to keep the system in equilibrium."***
 
 
-My name is Kunal Rathore, belonging to the historical district [Burhanpur, The gateway of Deccan](https://burhanpur.nic.in/en/history/) of MadhyaPradesh State, INDIA.
+My name is Prasad Ovhal, and I am from [Pune](https://www.britannica.com/place/Pune), Maharashtra—often referred to as the "Oxford of the East."
 
-I am a data science enthusiast, currently pursuing PhD with a major in [Environmental Sciences](https://gradschool.oregonstate.edu/environmental-sciences-graduate-program-esgp) and [Artificial Intelligence](https://engineering.oregonstate.edu/academics/degrees/artificial-intelligence) at Oregon State University. I am working with Prof. James Watson at [Socio Environmental Analysis (SEA)](https://jrwatson.ceoas.oregonstate.edu/about/) Lab, on hybrid modeling for Harmful Algal Blooms (HAB) predictions. My research interest lies in sustainable development and deployment of data-driven models across interdisciplinary domains. I have extensively worked on natural language processing, data analysis + modeling techniques, and Computer Vision problems. I am passionate about Formula 1, cycling, hiking, and exploring much more...
+I am an experienced Data Scientist, currently with Red Hat India since August 2019. From November 2023 to October 2024, I worked as a Data Scientist at Fractal Analytics.
+
+I hold a Master’s degree in Mathematical Modelling & Simulation, specializing in Data Science and Computational Fluid Dynamics (2019), and a Bachelor’s degree in Mechanical Engineering (2015)—both from Pune University.
+
+Since 2019, I have been a part-time Teaching Associate at the [Centre for Modeling & Simulation](http://cms.unipune.ac.in/) and the Bioinformatics Department at Pune University, and I previously served as a Teaching Associate at Flame University. I have published several research papers in collaboration with [Prof. Jayaraman Valadi](https://www.flame.edu.in/faculty/jayaraman-v-k), contributing to advancements in machine learning and optimization.
+
+My research focuses on the sustainable development and implementation of data-driven models and optimization techniques across diverse interdisciplinary domains. I have applied my expertise in areas such as credit risk, corporate finance, consumer packaged goods, cybersecurity, medical research, meteorology, and bioinformatics. My technical skills include forecasting, machine learning, data analysis and modeling, natural language processing, large language models, and Generative AI.
+
+Outside of my professional work, I am passionate about football, trekking, reading, video games, traveling, and exploring much more...
 
 * If our interests match, I am always open to collaborating and starting something adventurous! Please feel free to connect.
 
