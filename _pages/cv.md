@@ -8,59 +8,67 @@ redirect_from:
 ---
 
 {% include base_path %}
-<a href ="https://kjrathore.github.io/files/Resume_kjrathore.pdf" attributes-list>Resume.pdf</a>  
+<a href ="https://prasadovhal.github.io/files/Prasad_Ovhal_CV.pdf" attributes-list>Resume.pdf</a>  
 
 
 Education
 ======
-* Ph.D in Environmental Sciences and Applied AI, 2025 (expected)
 * Masters in Mathematical Modeling and Simulation, Centre for Modeling & Simulation, Pune, 2019
-* B.E. in Automotive Engineering, Pune University, 2017
+* B.E. in Mechanical Engineering, Pune University, 2015
 
 Work experience
 ======
-* 2023-2025: **Graduate Research Assistant**
-  * Oregon State University
-  * Predicting Critical transition via hybrid data-driven model in Socio-Economic Ecological models.
-  * Working with Socio-Environmental Analysis (SEA) Lab on data-driven ecology.
-  * Supervisor: [Dr. James Watson, CEAOS, OSU](https://ceoas.oregonstate.edu/directory/james-watson)
+* Oct 2023-Present: **Senior Data Scientist**
+  * Red Hat India
+  
 
+* Nov 2023-Oct 2024: **Senior Data Scientist**
+  * Fractal Analytics
+  * Supervisor: Amartya Sen
+  * Leading Data Analytics Team for a CPG Client. Thought Leadership, Creating models for price & weight elasticity, Demand Transference, and Innovation for Price Pack Architecture. Scaling this project to different markets. Creating features for different markets for modelling. Create a sprint plan for the Agile environment. Implement Data Science enhancements & Data refinement in the existing framework. Implemented MLOPs framework, and parallel processing to improve code runtime.
+  * Forecast Reconciliation for sales volume of Beer for a CPG client
+  * Worked on Data Filtering, Sentiment Analysis, Topic Modelling, Identifying Pain & Passion points for Oral Care Client social media data using NLP & GenAI,
 
-* 2022-2023: **Graduate Teaching Assistant**
-  * Oregon State University
-  * Explainable AI for Computer Vision DL models and LLMs, Scientific Machine Learning
-  * Working on Explainable AI project, building human-understandable explanations for DL models.
-  * Supervisor: [Dr. Prasad Tadepalli, EECS, OSU](https://engineering.oregonstate.edu/people/prasad-tadepalli)
+* Aug 2019-Nov 2023 : **Data Scientist**
+  * Red Hat India
+  * Supervisor: Shilpee Chamoli
+  * Developed a Bayesian model for services consumption probability to improve seller knowledge for lead generation and portfolio growth. Backtesting the model for four quarters. Implemented GitLab CI/CD pipelines for Python on OpenShift, enabling automated processes. Created data for the recommender system to establish serviceoffering rules.
+  * Achieved accurate forecasts (MAPE) for Commissions(7%), Sales(3%), Expenses(6%), and Billings(4%) globally using traditional ML and ensemble methods. Utilized Hierarchical and Grouped time series with Forecast Reconciliation. Visualization in Tableau dashboard for comparison with earlier methods and actuals. Employed Champion-Challenger framework for model comparison. Created external regressors for multivariate modelling from business understanding.
+  * Successfully forecasted Par-rate within 15 days, achieving 1.15% MAPE globally for various hierarchies.
+  * Developed Python library for Time Series Forecasting.
+  * Conducted Finance analytics. Automated cash flow data collection through SQL.
+  * Worked on highly imbalanced data (97:3 ratio), implementing techniques such as EDA, Data Visualization, Feature Engineering, ML algorithms, model validation, backtesting.
+  * Managed quarter-end activities and POCs with stakeholders.
+  * Ensured data validation with the data engineering and reporting team.
 
-* Summer 2023: **AI/ML Intern**
-  * Seagate Technology LLC
-  * Supervisor: Addishiwot Woldesenbet
-  * Led the integration of Generative AI and Large Language Model (LLM) technologies into enterprise applications.
-  * Developed and optimized LLM models by prompt engineering to convert natural language inquiries into structured and unstructured database queries. This implementation significantly reduced query time, enhanced usability for users unfamiliar with SQL database, and minimized human errors.
-  * Played a key role in the exploration, design, evaluation and implementation of efficient data processing pipelines, thereby improving overall system performance.
+* Dec 2018 - Aug 2019: **Data Science Intern**
+  * CRISIL, INDIA
+  * Supervisor: Prakash Bade
+  * Developed Credit Risk Modelling Tool(GUI) for scorecard generation using Python Dash. 
+  * Implemneted Machine Learning, Statistical, Financial & Optimization techniques to GUI. 
+  * Employed model-agnostic techniques to explain black-box ML algorithms (M.Tech thesis).
 
-* 2019 - 2021: **Senior ML Engineer**
-  * Persistent Systems, Pune, INDIA
-  * Supervisor: Dr. Kaustubh Waghmare, Kshitij Deshmukh
-  * Time-Series Forecasting and Anomaly Detection: I developed and implemented algorithms for analyzing network traffic across the organization. This involved the use of time-series forecasting and anomaly detection techniques.
-  * Data Exploration for Machine Learning Models: I conducted extensive data exploration to assess the feasibility of machine learning models for privilege access management applications. This initiative significantly enhanced our network security protocols.
-  * Entity and Link Extraction Models: As part of a large-scale team, I developed models for entity and link extraction. This enabled us to create structured and graphical representations of entertainment news.
-  * Real-Time Sentiment Analysis Platform: I created a state-of-the-art text summarization streaming platform. This platform was used for real-time sentiment analysis, leveraging the latest technology.
-
-* Jan-July 2019: **ML Intern**
-  * Persistent Systems, Pune, INDIA
-  * Supervisor: Kshitij Deshmukh
-  * Organizational Network and Data Analytics Tool: I conducted research and development for a tool designed to analyze organizational networks and data. This project involved visualizing the network and interaction of 10k+ employees.
-  * Feedback Summarization and Analytics Tool: I developed a machine learning-based tool for summarizing and analyzing survey feedback. This tool was designed to extract key insights from large volumes of survey data, enabling efficient decision-making for human resources.
-  * Chatbot Performance Enhancement: I designed, reconstructed, and implemented a framework to enhance chatbot performance. This involved the use of human feedback learning to continuously improve the chatbot's responses and overall user experience.
-  * Explanation for Deep Learning models: Implemented and evaluated explainable AI techniques for deep learning models trained on medical image data.
+* July 2015-July 2016: **Graduate Apprentice Trainee**
+  * SKF Bearings, INDIA
+  * Supervisor: Gopal Sakala
+  * Led team as supervisor/channel team engineer.
+  * Channel New HBU pre/resetting and tool management.
+  * Assembly pre/resetting and tool management for channel T3, T4, T5, T6.
+  * SOP projects.
+  * SMED on channel T4, T2.
+  * Kaizan implementation on channel T6. 
+  * 5’S’ implementation/awareness in the presetting area.
+  * Trainee skillset development program.
 
   
 Skills
 ======
-* **Programming & Tools:** Apache Kafka, Computer Vision, Confluence, CUDA, Data Analysis, Flask, Git, Airflow, Linux/Unix, R, MongoDB, MySQL, NumPy, Postgres, Postman, Pytorch, Natural Language Processing (NLP), Python, MATLAB, Operations Research, HTML/CSS, Excel/Numbers/Sheets, Tensorflow, SQL, Pyspark, Jupyter Notebook, Pytorch, OpenAI API, LangChain
-  * Cloud skills: Microsoft Azure, Microsoft Azure AI studio, AWS, REST APIs, API handling
-  * Statistics and mathematical modeling
+* **Programming Languages:** C/C++, R, Python, SQL, Latex.
+* **Python Libraries:** Numpy, Pandas, Scikit-learn, Sktime, Statsmodels, Seaborn, Matplotlib, Keras, Tensorflow, PyTorch, transformers, Spacy, NLTK, regex, Plotly, etc.
+* **Technical Knowledge:** CI/CD Pipeline, Docker, OpenShift, Excel, and GSheet.
+* **Tools:** Computer Vision, CUDA, Data Analysis, Flask, Linux/Unix, Natural Language Processing (NLP), Forecasting, etc.
+* **Cloud skills**: Microsoft Azure, Databricks, AWS, OpenShift, etc.
+* Statistics and mathematical modeling
 * **Soft Skills**
   * Inter-Disciplinary Research background, 
   * Strong problem-solving & computational skills, 
@@ -70,19 +78,18 @@ Skills
   * Experience in conducting research, Writing peer-reviewed publications, 
   * Monitoring & maintaining deployed models, ensuring scalability, reliability, and performance in production environment.
 * **Interests**
-  * Dynamical Systems
+  * Material Science
   * Data Science/ Data-driven modeling
   * Software & simulation engineering
+  * Optimization
 
 
 Certifications
 ======
-  * AWS Cloud Practitioner, 
-  * Foundation of GIS, 
-  * AgAID Digital AgAth0n 2023 - Participant, 
-  * Responsible AI Algorithms Design: LinkedinLearning, 
-  * AI for Marketing: LinkedinLearning,
-
+  * Specialization in Deep Learning (Coursera), 
+  * Tableau, 
+  * Git, 
+  * GenAI with LLM
 
 Publications
 ======
@@ -98,10 +105,7 @@ Talks
   
 Teaching Assistance
 ======
-  * Computer Vision
-  * Data Structures and Algorithm
-  * Engineering+: Algorithmic Thinking
-  
-Leadership
-======
-* Led my team at Formula Student Racing events for 2 consecutive years.
+  * Machine Learning
+  * Optimization
+  * Python
+  * R
