@@ -99,7 +99,7 @@ Publications
   
 Teaching
 ======
-  <ul>{% for post in site.talks reversed %}
+  <ul>{% for post in site.teaching reversed %}
     {% include archive-single-talk-teaching.html  %}
   {% endfor %}</ul>
   
