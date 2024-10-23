@@ -1,0 +1,11 @@
+---
+title: "Intrusion Detection with Black Hole Feature Selection"
+collection: publications
+permalink: /publication/2022-12-03-paper-title-number-7
+excerpt: 
+date: 2022-12-03
+venue: 'Congress on Smart Computing Technologies'
+paperurl: 'https://link.springer.com/chapter/10.1007/978-981-99-2468-4_9'
+citation: 'Kulkarni, S., Ovhal, P., Valadi, J.K. (2023). Intrusion Detection with Black Hole Feature Selection. In: Bansal, J.C., Sharma, H., Chakravorty, A. (eds) Congress on Smart Computing Technologies. CSCT 2022. Smart Innovation, Systems and Technologies, vol 351. Springer, Singapore. https://doi.org/10.1007/978-981-99-2468-4_9'
+---
+The present work describes the application of two different Black Hole algorithms for feature selection in intrusion detection systems. The first algorithm employs a binary algorithm in which the population of stars is denoted by a feature vector of size equivalent to original attribute size in the dataset. In this algorithm, the ones denote attributes selected and zeros denote attributes not selected. Each star is represented by the subsets which are evaluated by the random forest classifier and the best star is designated as the Black Hole. The stars iteratively move towards the Black Hole, and the best subset of features are obtained after convergence. The second algorithm is called the Real Coded Black Hole algorithm wherein the elements of the feature vector contain values ranging from zeros to one. Here, a feature in a given star that possesses a value greater than or equal to 0.5 (threshold) is selected in the feature subset which represents that star. The feature subsets associated with each star are then evaluated using a random forest classifier, while the rest of the algorithm follows the same steps as the Binary Black Hole algorithm. These two Black Hole algorithms are evaluated using three different datasets which include NSL-KDD, CIC-IDS2017 and the Aegean Wi-Fi intrusion dataset. The simulations in the proposed algorithms are compared with existing feature selection algorithms, and it is observed that proposed algorithms provide significantly better results.

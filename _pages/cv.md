@@ -109,3 +109,8 @@ Teaching Assistance
   * Optimization
   * Python
   * R
+
+Leadership
+======
+* Led team as supervisor/channel team engineer at SKF Bearings.
+* Led Analytics team at Fractal Analytics.
