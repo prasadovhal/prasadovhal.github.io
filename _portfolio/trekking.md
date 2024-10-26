@@ -1,6 +1,6 @@
 ---
 title: "Weekly Trekking Routine"
-excerpt: "Daybreak: The dawn unwraps its golden hue, as morning sun spills light anew. !!  <br/><img src='/images/trekking/4.JPG'>"
+excerpt: "Daybreak: The dawn unwraps its golden hue, as morning sun spills light anew. !!  <br/><img src='/images/trekking/4.jpg'>"
 collection: portfolio
 ---
 
@@ -10,14 +10,14 @@ Allow me to share a few glimpses…
 
 
 Summer
-<img src='/images/trekking/7.JPG'>
+<img src='/images/trekking/7.jpg'>
 
-<img src='/images/trekking/8.JPG'>
+<img src='/images/trekking/8.jpg'>
 
 Monsoon
-<img src='/images/trekking/2.JPG'>
+<img src='/images/trekking/2.jpg'>
 
 Winter
-<img src='/images/trekking/4.JPG'>
+<img src='/images/trekking/4.jpg'>
 
-<img src='/images/trekking/6.JPG'>
+<img src='/images/trekking/6.jpg'>
