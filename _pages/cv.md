@@ -103,12 +103,6 @@ Teaching
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
   
-Teaching Associate
-======
-  * Machine Learning
-  * Optimization
-  * Python
-  * R
 
 Leadership
 ======
