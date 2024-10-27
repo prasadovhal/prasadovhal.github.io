@@ -13,13 +13,14 @@ redirect_from:
 
 Education
 ======
-* Masters in Mathematical Modeling and Simulation, Centre for Modeling & Simulation, Pune, 2019
-* B.E. in Mechanical Engineering, Pune University, 2015
+* Masters in Mathematical Modeling and Simulation, Centre for Modeling & Simulation, Pune University, Pune, 2019
+* B.E. in Mechanical Engineering, Pimpri Chinchwad College of Engineering, Pune University, Pune, 2015
 
 Work experience
 ======
 * Oct 2023-Present: **Senior Data Scientist**
   * Red Hat India
+  * Supervisor: Mike Clark
   
 
 * Nov 2023-Oct 2024: **Senior Data Scientist**
@@ -66,9 +67,9 @@ Skills
 * **Programming Languages:** C/C++, R, Python, SQL, Latex.
 * **Python Libraries:** Numpy, Pandas, Scikit-learn, Sktime, Statsmodels, Seaborn, Matplotlib, Keras, Tensorflow, PyTorch, transformers, Spacy, NLTK, regex, Plotly, etc.
 * **Technical Knowledge:** CI/CD Pipeline, Docker, OpenShift, Excel, and GSheet.
-* **Tools:** Computer Vision, CUDA, Data Analysis, Flask, Linux/Unix, Natural Language Processing (NLP), Forecasting, etc.
+* **Tools:** Computer Vision, CUDA, Data Analysis, Flask, Linux/Unix, Natural Language Processing (NLP), Forecasting, LLM, etc.
 * **Cloud skills**: Microsoft Azure, Databricks, AWS, OpenShift, etc.
-* Statistics and mathematical modeling
+* Statistics and Mathematical modeling
 * **Soft Skills**
   * Inter-Disciplinary Research background, 
   * Strong problem-solving & computational skills, 
@@ -79,6 +80,7 @@ Skills
   * Monitoring & maintaining deployed models, ensuring scalability, reliability, and performance in production environment.
 * **Interests**
   * Material Science
+  * Chemical Engineering
   * Data Science/ Data-driven modeling
   * Software & simulation engineering
   * Optimization
