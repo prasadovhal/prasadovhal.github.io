@@ -21,12 +21,12 @@ My travels across India have taken me from the bustling streets of Mumbai to the
 
 
 [Omkareshwar, Ujjain](https://en.wikipedia.org/wiki/Omkareshwar_Temple)
-<img src='/images/trekking/Omkareshawar 1.jpg'>
+<img src='/images/travel/Omkareshawar1.jpg'>
 
-<img src='/images/trekking/Omkareshawar 2.jpg'>
+<img src='/images/travel/Omkareshawar2.jpg'>
 
 
 [Kaas Plateau, Satara](https://www.kas.ind.in/)
-<img src='/images/trekking/Kaas 1.jpg'>
+<img src='/images/travel/Kaas 1.jpg'>
 
-<img src='/images/trekking/Kaas 2.jpg'>
+<img src='/images/travel/Kaas 2.jpg'>
