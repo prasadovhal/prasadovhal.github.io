@@ -1,6 +1,6 @@
 ---
 title: "Wanderlust: Adventure awaits everywhere..."
-excerpt: "Travel opens minds and leaves memories, showing us the world’s endless stories. <br/><img src='/images/travel/Omkareshawar 2.jpg'>"
+excerpt: "Travel opens minds and leaves memories, showing us the world’s endless stories. <br/><img src='/images/travel/Omkareshawar2.jpg'>"
 collection: portfolio
 ---
 
