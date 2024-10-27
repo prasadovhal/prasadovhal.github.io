@@ -10,9 +10,9 @@ Allow me to share a few glimpses…
 
 
 Summer
-<img src='/images/trekking/7.heic'>
+<img src='/images/trekking/7.jpg'>
 
-<img src='/images/trekking/8.heic'>
+<img src='/images/trekking/8.jpg'>
 
 Monsoon
 <img src='/images/trekking/2.jpg'>
