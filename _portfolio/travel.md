@@ -4,7 +4,7 @@ excerpt: "Travel opens minds and leaves memories, showing us the world’s endle
 collection: portfolio
 ---
 
-My travels across India have taken me from the bustling streets of Mumbai to the serene landscapes of Konkan. I’ve explored historical sites in Satara, Solapur, and Nashik, each with its unique cultural heritage. My spiritual journeys led me to Ujjain and Omkareshwar, while Indore showcased vibrant city life. Goa’s beaches, Bangalore’s urban vibes, and the lush greenery of Coimbatore and Ooty offered a perfect mix of relaxation and adventure. and much more.....
+Journeys across India have flowed from Mumbai’s vibrant streets to the calm shores of Konkan, through the historic charm of Satara, Solapur, and Nashik, and into the sacred embrace of the Jyotirlingas at Ujjain, Omkareshwar, Bhimashankar, and Mallikarjuna. Kolkata blended colonial grace with art, music, and street food, while the Sundarbans whispered of wild beauty. In Odisha, the devotion of Jagannath Puri, the elegance of Pattachitra, and the timeless grandeur of Konark’s Sun Temple left lasting imprints. Indore’s lively markets, Goa’s sunlit beaches, Bangalore’s urban rhythm, Coimbatore’s quiet temples, and Ooty’s green hills stitched together a tapestry of places and moments—each one carrying its own story, flavor, and light.
 
 
 

@@ -20,8 +20,8 @@ Work experience
 ======
 * Oct 2023-Present: **Senior Data Scientist**
   * Red Hat India
-  * Supervisor: Mike Clark
-  
+  * Supervisor: Anisha Narang
+  * Currently leading projects as a Senior Data Scientist, overseeing end-to-end development of AI and data-driven solutions from concept to deployment. Responsible for guiding teams, shaping strategy, and ensuring innovative, high-impact outcomes.
 
 * Nov 2023-Oct 2024: **Senior Data Scientist**
   * Fractal Analytics

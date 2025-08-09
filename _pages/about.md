@@ -23,7 +23,7 @@ My research focuses on the sustainable development and implementation of data-dr
 
 Outside of my professional work, I am passionate about football, fitness, yoga, trekking, reading, video games, traveling, watching anime and exploring much more...
 
-* If our interests match, I am always open to collaborating and starting something adventurous! Please feel free to connect.
+If our interests match, I am always open to collaborating and starting something adventurous! Please feel free to connect.
 
 
 
