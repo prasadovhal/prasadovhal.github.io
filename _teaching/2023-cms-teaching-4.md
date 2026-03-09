@@ -8,10 +8,10 @@ date: 2019-08-01
 location: "Pune, India"
 ---
 
-Conducting lectures on Python & R Hands-on, Machine Learning and Stochastic Optimization at Centre for Modeling and Simulation, Pune University for 8 Semester (7-8 Lectures/Semester)
+Conducting lectures on Python & R Hands-on, Data Science, Machine Learning and Stochastic Optimization at Centre for Modeling and Simulation, Pune University. From 2019 to Present
 
 Syllabus
 ======
-* Machine Learning: EDA, Data Visualisation, Classification, Regression, Clustering, Imbalance data handling, etc.
+* Machine Learning: EDA, Data Visualisation, Classification, Regression, Clustering, Data Science etc.
 * Programming: Python, R, etc.
 * Optimization: Random Walk, Monte Carlo, Metropolis Monte Carlo, Simulated Annealing, Genetic Algorithm, Ant Colony Optimization, Black Hole Algorithm, etc.

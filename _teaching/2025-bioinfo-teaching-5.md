@@ -8,7 +8,7 @@ date: 2025-02-01
 location: "Pune, India"
 ---
 
-Conducted Advanced Algorithms in Machine Learning course with hands-on Python as a Teaching Associate at Bioinformatics Department, Pune University, from Feb 2025 to May 2025
+Conducted Advanced Algorithms in Machine Learning course with hands-on Python as a Teaching Associate at Bioinformatics Department, Pune University, from Feb 2025 to Present
 
 Syllabus
 ======

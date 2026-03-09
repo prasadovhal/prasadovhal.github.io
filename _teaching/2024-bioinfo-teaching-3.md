@@ -8,7 +8,7 @@ date: 2024-08-01
 location: "Pune, India"
 ---
 
-Conducted Scientific Data Mining and Visualization course with hands-on Python as a Teaching Associate with Prof. Jayaraman at Bioinformatics Department, Pune University, from Aug 2024 to Nov 2024
+Conducted Scientific Data Mining and Visualization course with hands-on Python as a Teaching Associate with Prof. Jayaraman at Bioinformatics Department, Pune University, from Aug 2024 to Present
 
 Syllabus
 ======
