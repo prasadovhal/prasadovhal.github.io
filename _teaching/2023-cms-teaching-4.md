@@ -14,4 +14,4 @@ Syllabus
 ======
 * Machine Learning: EDA, Data Visualisation, Classification, Regression, Clustering, Data Science etc.
 * Programming: Python, R, etc.
-* Optimization: Random Walk, Monte Carlo, Metropolis Monte Carlo, Simulated Annealing, Genetic Algorithm, Ant Colony Optimization, Black Hole Algorithm, etc.
+* Optimization: Gradient Descent & Variations, Random Walk, Monte Carlo, Metropolis Monte Carlo, Simulated Annealing, Genetic Algorithm, Ant Colony Optimization, Black Hole Algorithm, etc.

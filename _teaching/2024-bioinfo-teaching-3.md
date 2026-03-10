@@ -8,9 +8,9 @@ date: 2024-08-01
 location: "Pune, India"
 ---
 
-Conducted Scientific Data Mining and Visualization course with hands-on Python as a Teaching Associate with Prof. Jayaraman at Bioinformatics Department, Pune University, from Aug 2024 to Present
+Conducted Scientific Data Mining and Visualization & Advanced Algorithms in Machine Learning course with hands-on Python as a Teaching Associate with Prof. Jayaraman at Bioinformatics Department, Pune University, from Aug 2024 to Present
 
-Syllabus
+Scientific Data Mining and Visualization Syllabus
 ======
 * Introduction to stochastic optimization
 * Random Walk
@@ -18,4 +18,15 @@ Syllabus
 * Simulated Annealing
 * Genetic Algorithm
 * Ant Colony Optimization
+* Hands-on python for all algorithms
+
+
+Advanced Algorithms in Machine Learning Syllabus
+======
+* Naive Bayes 
+* Logistic Regression 
+* Support Vector Machines 
+* Time Series Forecasting 
+* Convolutional Neural Network 
+* Recurrent Neural Network 
 * Hands-on python for all algorithms

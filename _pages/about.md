@@ -11,29 +11,21 @@ redirect_from:
 ***"[Black holes](https://science.nasa.gov/universe/black-holes/), governed by precise mathematics and optimization, shape the universe's structure. Likewise, life’s challenges are equations of growth, refining our path and adding purpose to our existence.."***
 
 
-My name is Prasad Ovhal, and I am from [Pune](https://www.britannica.com/place/Pune), Maharashtra—often referred to as the "Oxford of the East."
+Prasad Ovhal is a Senior Data Scientist based in [Pune](https://www.britannica.com/place/Pune), Maharashtra, India — often referred to as the Oxford of the East. With over more than 7 years of experience in applied artificial intelligence and data science, his work focuses on designing and deploying scalable AI systems powered by Generative AI and Large Language Models (LLMs).
 
-I am a Data Scientist with 6+ years of experience, currently with Red Hat India since August 2019. From November 2023 to October 2024, I worked as a Data Scientist at Fractal Analytics.
+His current work centers around LLM-powered applications, Retrieval-Augmented Generation (RAG), hybrid retrieval architectures, vector search systems, LLM evaluation frameworks, and hallucination benchmarking. The goal is to build reliable and production-ready AI systems capable of solving complex real-world problems.
 
-I hold a Master’s degree in Mathematical Modelling & Simulation, specializing in Data Science and Computational Fluid Dynamics (2019), and a Bachelor’s degree in Mechanical Engineering (2015)—both from [Pune University](https://en.wikipedia.org/wiki/Savitribai_Phule_Pune_University).
+Prasad currently works at Red Hat India and previously worked as a Data Scientist at Fractal Analytics, where he developed machine learning solutions across domains including credit risk, corporate finance, consumer packaged goods (CPG), cybersecurity, medical research, meteorology, and bioinformatics.
 
-Since 2019, I have been a part-time Teaching Associate at the [Centre for Modeling & Simulation](http://cms.unipune.ac.in/) and the [Bioinformatics Department](https://bioinfo.net.in/) at Pune University, and I previously served as a Teaching Associate at [Flame University](https://www.flame.edu.in/). I have published several research papers under guidance of [Prof. Jayaraman Valadi](https://www.flame.edu.in/faculty/jayaraman-v-k), in collaboration with different universities across India, contributing to advancements in machine learning and optimization.
+He holds a Master’s degree in Mathematical Modelling & Simulation (Data Science specialization) and a Bachelor’s degree in Mechanical Engineering, both from [Savitribai Phule Pune University](https://en.wikipedia.org/wiki/Savitribai_Phule_Pune_University).
 
-My research focuses on the sustainable development and implementation of data-driven models and optimization techniques across diverse interdisciplinary domains. I have applied my expertise in areas such as credit risk, business & corporate finance, consumer packaged goods (CPG), cybersecurity, medical research, meteorology, and bioinformatics. My technical skills include forecasting, machine learning, data analysis and modeling, natural language processing, large language models, and Generative AI.
+Alongside industry work, he contributes to academia as a part-time Teaching Associate since 2019 at the [Centre for Modeling & Simulation](http://cms.unipune.ac.in/) and the [Bioinformatics Department](https://bioinfo.net.in/) at Pune University. Also previously served as a Teaching Associate at [Flame University](https://www.flame.edu.in/).
 
-Outside of my professional work, I am passionate about football, fitness, yoga, trekking, reading, video games, traveling, watching anime and exploring much more...
-
-If our interests match, I am always open to collaborating and starting something adventurous! Please feel free to connect.
+His research focuses on the sustainable development and deployment of data-driven models and optimization techniques across interdisciplinary domains, and he has published several research papers in collaboration with universities across India under the guidance of [Prof. Jayaraman Valadi](https://www.flame.edu.in/faculty/jayaraman-v-k)
 
 
+Outside of professional work, interests include football, fitness, yoga, trekking, reading, traveling, video games, watching anime, and exploring ideas related to science and the universe.
 
-<!-- 
-<img src='/images/wordcloud/wc1.png'>
-
-<img src='/images/wordcloud/wc2.png'>
-
-<img src='/images/wordcloud/wc3.png'>
-
-<img src='/images/wordcloud/wc4.png'> -->
+If interests align — whether in AI research, building intelligent systems, or exploring ambitious ideas — collaboration is always welcome.
 
 <img src='/images/wordcloud/wc5.png'>

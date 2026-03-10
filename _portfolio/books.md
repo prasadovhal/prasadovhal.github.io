@@ -15,6 +15,9 @@ Books/Authors:
 * Paulo Coelho
 * Preeti Shenoy
 * Khaled Hosseini
+* J.K. Rowling
+* George R.R. Martin
+* Tolkien 
 * Chetan Bhagat (Sure, some may have mixed feelings about him, but his influence helped me develop the habit of reading and truly enjoy sitting down with a book.)
 * etc, etc.
 
