@@ -4,7 +4,7 @@ collection: teaching
 type: "Postgraduate course"
 permalink: /teaching/2024-bioinfo-teaching-3
 venue: "Pune University, Bioinformatics Department "
-date: 2024-08-01
+date: 2024-08-01 to Present
 location: "Pune, India"
 ---
 

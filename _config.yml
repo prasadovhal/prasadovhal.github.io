@@ -21,13 +21,13 @@ repository               : "prasadovhal/prasadovhal.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.jpg"
+  avatar           : "profile2.jpg"
   name             : "Prasad Ovhal"
-  pronouns         : # example: "she/her"  
-  bio              : "Senior Data Scientist at Red Hat"
+  pronouns         :  "he/his/him"  
+  bio              : "Senior Data Scientist | Generative AI & Large Language Models | Researcher"
   location         : "Pune, Maharashtra, India"
   employer         : "Red Hat"
-  uri              : # URL
+  uri              : https://prasadovhal.github.io/
   email            : "prasadovhal99@gmail.com" 
 
   # Academic websites

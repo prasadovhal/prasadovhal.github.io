@@ -4,6 +4,7 @@ title: "CV"
 permalink: /cv/
 author_profile: true
 
+
 Education
 ======
 * M.Tech in Mathematical Modelling & Simulation, Centre for Modeling & Simulation, Savitribai Phule Pune University, Pune — 2019
@@ -14,7 +15,7 @@ Work experience
 * Oct 2024-Present: **Senior Data Scientist**
   * Red Hat India
   * Supervisor: Anisha Narang
-  * Responsibilities include:
+  * **Responsibilities include:**
     * Designing and deploying production-grade AI solutions
     * Leading project strategy, model development, and deployment pipelines
     * Mentoring team members and guiding technical decisions
@@ -24,7 +25,7 @@ Work experience
   * Fractal Analytics
   * Supervisor: Amartya Sen
   * Led analytics initiatives for global CPG clients, developing advanced modelling frameworks for pricing, demand forecasting, and consumer insights.
-  * Key contributions:
+  * **Key contributions:**
     * Developed models for Price & Weight Elasticity, Demand Transference, and Price Pack Architecture (PPA) optimization
     * Scaled pricing models across multiple international markets
     * Implemented MLOps pipelines and parallel processing frameworks to improve runtime efficiency
@@ -39,7 +40,7 @@ Work experience
   * Red Hat India
   * Supervisor: Shilpee Chamoli
   * Worked on enterprise analytics, financial forecasting, and machine learning systems supporting global operations.
-  * Key achievements:
+  * **Key achievements:**
     * Developed Bayesian models to estimate services consumption probability for sales portfolio optimization
     * Built time series forecasting systems for global financial metrics including:
       * Sales (MAPE: 3%)
@@ -60,7 +61,7 @@ Work experience
   * CRISIL, INDIA
   * Supervisor: Prakash Bade
   * Developed a Credit Risk Modeling Tool using Python Dash for automated scorecard generation.
-  * Key contributions:
+  * **Key contributions:**
     * Implemented machine learning and statistical techniques for credit risk assessment
     * Integrated financial modelling and optimization methods into a GUI-based application
     * Applied model interpretability techniques for black-box ML models as part of Master's thesis work
@@ -69,7 +70,7 @@ Work experience
   * SKF Bearings, INDIA
   * Supervisor: Gopal Sakala
   * Worked on manufacturing process optimization and production engineering.
-  * Key contributions:
+  * **Key contributions:**
     * Led shop-floor team as Channel Team Engineer
     * Implemented SMED improvements and Kaizen initiatives
     * Managed tool presetting and assembly operations for production channels
@@ -84,11 +85,11 @@ Skills
 * **Programming Languages:** Python, R, SQL etc.
 * **AI & Data Science Libraries:** PyTorch, TensorFlow, Keras, HuggingFace Transformers, Scikit-learn, Sktime, Statsmodels, SpaCy, NLTK, NumPy, Pandas, Matplotlib, Seaborn, Plotly, etc.
 * **LLM / AI Infrastructure:** LangChain, Vector Databases (FAISS), LLM Inference Optimization, Model Serving, CI/CD for ML Systems, Parallel Processing for Model Pipelines.
-* **Data Platforms & Tools:** Tableau, Excel, Google Sheets, Linux, Unix
+* **Data Platforms & Tools:** Tableau, Excel, Google Sheets, Linux
 * **Cloud & MLOps:** Docker, OpenShift, Git, GitLab CI/CD
 * **Mathematical & Statistical Expertise**: Statistical Modeling, Optimization, Bayesian Methods, Time Series Analysis, Mathematical Modeling.
 * **Soft Skills:** Interdisciplinary research collaboration, Analytical and computational problem solving, Strategic thinking for AI systems development, Technical communication and scientific writing, Stakeholder collaboration and cross-functional teamwork, Mentoring and knowledge sharing, Agile project planning and execution, Research-oriented mindset, Critical thinking and innovation, Managing and maintaining production ML systems
-* **Interests: ** Artificial Intelligence and Generative AI systems, Scientific computing and mathematical modeling, Optimization and data-driven systems, Astronomy and cosmology, Football and fitness, Yoga and mindfulness, Trekking and travel, Reading books on science, history and philosophy, Video games and anime, Exploring emerging technologies.
+* **Interests:** Artificial Intelligence and Generative AI systems, Scientific computing and mathematical modeling, Optimization and data-driven systems, Astronomy and cosmology, Football and fitness, Yoga and mindfulness, Trekking and travel, Reading books on science, history and philosophy, Video games and anime, Exploring emerging technologies.
 
 Publications
 ======
