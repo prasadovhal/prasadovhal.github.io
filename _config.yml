@@ -21,7 +21,7 @@ repository               : "prasadovhal/prasadovhal.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile2.jpg"
+  avatar           : "profile2.png"
   name             : "Prasad Ovhal"
   pronouns         :  "he/his/him"  
   bio              : "Senior Data Scientist | Generative AI & Large Language Models | Researcher"

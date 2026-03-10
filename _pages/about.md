@@ -27,4 +27,4 @@ Outside of professional work, interests include football, fitness, yoga, trekkin
 
 If interests align — whether in AI research, building intelligent systems, or exploring ambitious ideas — collaboration is always welcome.
 
-<img src='/images/wordcloud/6.png'>
+<img src='/images/wordcloud/wc6.png'>
