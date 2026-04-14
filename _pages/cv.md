@@ -74,16 +74,69 @@ Work experience
   
 Skills
 ======
-* **Generative AI & LLM Systems**: Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), Hybrid Retrieval (BM25 + Dense Retrieval), Vector Search Systems, Cross-Encoder Re-ranking, LLM Evaluation & Observability Frameworks, Hallucination Detection & Benchmarking, Prompt Engineering, Fine-Tuning & Model Adaptation, Knowledge-Grounded AI Systems, Agentic AI, Model Context Protocol (MCP), LLM Infrastructure, Advanced Retrieval & Search.
-* **Machine Learning & Predictive Modeling**: Machine Learning, Deep Learning, Natural Language Processing (NLP), Time Series Forecasting, Bayesian Modeling, Ensemble Learning, Feature Engineering, Model Evaluation, Model Validation.
-* **Programming Languages**: Python, R, SQL.
-* **AI & Data Science Libraries:** PyTorch, TensorFlow, Keras, HuggingFace Transformers, Scikit-learn, Sktime, Statsmodels, SpaCy, NLTK, NumPy, Pandas, Matplotlib, Seaborn, Plotly.
-* **LLM / AI Infrastructure**: LangChain, Vector Databases (FAISS), LLM Inference Optimization, Model Serving, CI/CD for ML Systems, Parallel Processing for Model Pipelines.
-* **Data Platforms & Tools**: Tableau, Excel, Google Sheets, Linux
-* **Cloud & MLOps**: Docker, OpenShift, Git, GitLab CI/CD
-* **Mathematical & Statistical Expertise**: Statistical Modeling, Optimization, Bayesian Methods, Time Series Analysis, Mathematical Modeling.
-* **Soft Skills**: Interdisciplinary research collaboration, Analytical and computational problem solving, Strategic thinking for AI systems development, Technical communication and scientific writing, Stakeholder collaboration and cross-functional teamwork, Mentoring and knowledge sharing, Agile project planning and execution, Research-oriented mindset, Critical thinking and innovation, Managing and maintaining production ML systems
-* **Interests**: Artificial Intelligence and Generative AI systems, Scientific computing and mathematical modeling, Optimization and data-driven systems, Astronomy and cosmology, Football and fitness, Yoga and mindfulness, Trekking and travel, Reading books on science, history and philosophy, Video games and anime, Exploring emerging technologies.
+- **AI & Machine Learning Expertise**
+  - **Generative AI & LLM Systems**
+    - Agentic AI
+    - Large Language Models (LLMs) & Infrastructure
+    - Retrieval-Augmented Generation (RAG), Advanced Retrieval & Search
+    - Hybrid Retrieval (BM25 + Dense Retrieval)
+    - Vector Search Systems
+    - Re-ranking
+    - LLM Evaluation & Observability Frameworks
+    - Hallucination Detection & Benchmarking
+    - Prompt Engineering
+    - Fine-Tuning & Model Adaptation
+    - Model Context Protocol (MCP)
+  - **Machine Learning & Predictive Modeling**
+    - Machine Learning
+    - Deep Learning
+    - Natural Language Processing (NLP)
+    - Time Series Forecasting
+    - Feature Engineering
+    - Model Evaluation & Validation
+- **Programming & Technical Skills**
+  - **Languages**: Python, R, SQL
+  - **Libraries & Frameworks**: 
+    - PyTorch, TensorFlow, Keras, HuggingFace Transformers, 
+    - Scikit-learn, Sktime, NLTK 
+    - Matplotlib, Seaborn, Plotly
+- **Infrastructure & Deployment**
+  - **AI/ML Infrastructure**: 
+    - LangChain, LangGraph
+    - Vector Databases (FAISS), 
+    - LLM Inference Optimization
+  - **Data Platforms & Tools**: 
+    - Tableau 
+    - Excel, Google Sheets, Linux
+  - **Cloud & MLOps**: Docker, OpenShift, Git, GitLab CI/CD
+- **Mathematical & Statistical Foundations**
+  - Statistical Modeling
+  - Optimization
+  - Bayesian Methods
+  - Time Series Analysis
+  - Mathematical Modeling
+- **Soft Skills & Professional Attributes**
+  - Interdisciplinary research collaboration
+  - Analytical and computational problem solving
+  - Strategic thinking for AI systems development
+  - Technical communication and scientific writing
+  - Stakeholder collaboration and cross-functional teamwork
+  - Mentoring and knowledge sharing
+  - Agile project planning and execution
+  - Research-oriented mindset
+  - Critical thinking and innovation
+  - Managing and maintaining production ML systems
+- **Interests**
+  - Artificial Intelligence and Generative AI systems
+  - Scientific computing and mathematical modeling
+  - Optimization and data-driven systems
+  - Astronomy and cosmology
+  - Football and fitness
+  - Yoga and mindfulness
+  - Trekking and travel
+  - Reading books on science, history and philosophy
+  - Video games and anime
+  - Exploring emerging technologies.
 
 Publications
 ======
