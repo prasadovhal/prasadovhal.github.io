@@ -74,7 +74,7 @@ Work experience
   
 Skills
 ======
-* **Generative AI & LLM Systems**: Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), Hybrid Retrieval (BM25 + Dense Retrieval), Vector Search Systems, Cross-Encoder Re-ranking, LLM Evaluation Frameworks, Hallucination Detection & Benchmarking, Prompt Engineering, Knowledge-Grounded AI Systems.
+* **Generative AI & LLM Systems**: Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), Hybrid Retrieval (BM25 + Dense Retrieval), Vector Search Systems, Cross-Encoder Re-ranking, LLM Evaluation & Observability Frameworks, Hallucination Detection & Benchmarking, Prompt Engineering, Fine-Tuning & Model Adaptation, Knowledge-Grounded AI Systems, Agentic AI, Model Context Protocol (MCP), LLM Infrastructure, Advanced Retrieval & Search.
 * **Machine Learning & Predictive Modeling**: Machine Learning, Deep Learning, Natural Language Processing (NLP), Time Series Forecasting, Bayesian Modeling, Ensemble Learning, Feature Engineering, Model Evaluation, Model Validation.
 * **Programming Languages**: Python, R, SQL.
 * **AI & Data Science Libraries:** PyTorch, TensorFlow, Keras, HuggingFace Transformers, Scikit-learn, Sktime, Statsmodels, SpaCy, NLTK, NumPy, Pandas, Matplotlib, Seaborn, Plotly.
