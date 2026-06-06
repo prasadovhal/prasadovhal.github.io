@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(xargs ls *)",
+      "Bash(curl -sL https://code.jquery.com/jquery-3.7.1.min.js -o \"D:/Study/Git_repo/github_profile/prasadovhal.github.io/assets/js/vendor/jquery/jquery-3.7.1.min.js\")"
+    ]
+  }
+}
