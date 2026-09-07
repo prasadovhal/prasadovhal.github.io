@@ -1,4 +1,21 @@
 ignore:
-  # rubyzip 2.x → 3.x is a breaking major-version change that github-pages cannot
-  # yet accommodate. Tracked upstream; revisit when github-pages lifts its constraint.
-  - GHSA-47m2-wp7j-p9vc   # CVE-2026-85396  rubyzip path-traversal pre-3.4.0
+  # --- nokogiri (transitive via github-pages) ---
+  # github-pages pins nokogiri to ~1.18.x; upgrading to 1.19.4 conflicts with its
+  # gemspec. These advisories cannot be resolved until github-pages lifts the pin.
+  - GHSA-5prr-v3j2-97mh   # Out-of-bounds read in NodeSet#[]
+  - GHSA-5v8h-3h3q-446p   # Use-after-free in Document#encoding=
+  - GHSA-8678-w3jw-xfc2   # XML::Schema NONET bypass on JRuby
+  - GHSA-9cv2-cfxc-v4v2   # Null pointer dereference in uninitialized wrapper
+  - GHSA-c4rq-3m3g-8wgx   # CVE-2026-79770 CSS selector regex backtracking
+  - GHSA-g9g8-vgvw-g3vf   # Invalid memory read in initialize_copy_with_args
+  - GHSA-p67v-3w7g-wjg7   # Use-after-free in XPathContext beyond doc lifetime
+  - GHSA-phwj-rprq-35pp   # Use-after-free in Attr#value= / #content=
+  - GHSA-v2fc-qm4h-8hqv   # CVE-2026-79771 XSLT transform memory leak
+  - GHSA-wfpw-mmfh-qq69   # Use-after-free in XInclude processing
+  - GHSA-wjv4-x9w8-wm3h   # Use-after-free when setting Document#root= to invalid type
+  - GHSA-wx95-c6cv-8532   # CVE-2026-79772 unchecked return from xmlC14NExecute
+
+  # --- rubyzip (transitive via github-pages) ---
+  # Fix requires rubyzip >= 3.4.0 (major-version breaking change); github-pages
+  # cannot accommodate the 2.x → 3.x bump yet.
+  - GHSA-47m2-wp7j-p9vc   # CVE-2026-85396 path traversal in pre-3.4.0 rubyzip
