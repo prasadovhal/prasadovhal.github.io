@@ -18,7 +18,7 @@ jobs:
     name: Dependency Vulnerability Audit
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - uses: ruby/setup-ruby@v1
         with:
@@ -39,7 +39,7 @@ jobs:
     name: Malware, Secret & Misconfiguration Scan
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           # Full history so gitleaks can check all commits, not just HEAD
           fetch-depth: 0
