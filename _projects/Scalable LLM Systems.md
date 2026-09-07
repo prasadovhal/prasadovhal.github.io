@@ -1,7 +1,7 @@
 ---
 title: "Scalable LLM Systems"
 collection: projects
-type: "Post Graduate Research"
+type: "Industry Project"
 permalink: /projects/Scalable_LLM_Systems
 venue: "Red Hat"
 date: 2026-03-01

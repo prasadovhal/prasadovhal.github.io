@@ -1,7 +1,7 @@
 ---
 title: "RAG Evaluation Framework"
 collection: projects
-type: "Post Graduate Research"
+type: "Industry Project"
 permalink: /projects/rag_evaluation
 venue: "Red Hat"
 date: 2026-03-01

@@ -1,7 +1,7 @@
 ---
 title: "LLM-based Scientific Question Answering"
 collection: projects
-type: "Post Graduate Research"
+type: "Industry Project"
 permalink: /projects/LLM_QnA
 venue: "Red Hat"
 date: 2026-03-01
