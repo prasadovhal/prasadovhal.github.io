@@ -13,12 +13,12 @@ Education
 Work Experience
 ======
 * **Oct 2024 – Present · Senior Data Scientist** — Red Hat India
-  * Building an AI-powered intelligence engine providing support engineers with relevant customer issue context; owning the data pipeline, subgraph, and vector database services while supporting LLM integration and evaluation.
-  * Conducting retrieval and LLM evaluations using LLM-as-a-Judge to measure search quality and answer accuracy; building automated golden datasets via similarity matching and LLM-based relevance evaluation (LLM Avg Precision@2: 82–86%).
-  * Evaluating document chunking strategies to improve retrieval performance (Avg Precision@2: 50% → 65%, Avg Recall@2: 60% → 72%).
-  * Technical Lead for SBR Routing and Tagging systems — driving architecture, rule-engine design, and ML model enhancements to increase coverage (SBR: 88% → 92%, Tagging: 70% → 72%) and reduce error rates across support case workflows.
-  * Managing machine translation project using transformer-based models and LLMs for multilingual document translation; optimised prompts and evaluated with BLEU-L (38%) and ROUGE-L (Precision 60%, Recall 52%).
-  * Core member of the Pune AI Tiger Team, driving AI enablement across the organisation and partnering with cross-functional teams on site-level operational challenges.
+  * Building an AI-powered intelligence engine that provides support engineers with relevant customer issue context; owning the data pipeline, subgraph, and vector database services, while supporting LLM integration and evaluation.
+  * Conduct retrieval and LLM evaluations using LLM-as-a-Judge to measure search quality and answer accuracy. Build automated golden datasets using similarity matching and LLM-based relevance evaluation. LLM Avg Precision@2 between 82-86%.
+  * Evaluate document chunking strategies to improve retrieval performance and search effectiveness (Avg Precision@2 from 50% to 65%, Avg Recall@2 from 60% to 72%).
+  * Technical Lead for SBR Routing and Tagging systems, driving architecture, rule-engine design, and ML model enhancements to increase coverage (SBR- 88-92%, Tagging - 70-72%), reduce error rates (SBR- 11-13%, Tagging - 1.5-3%), and improve end-to-end system reliability for support case workflows.
+  * Managed machine translation project using transformer-based models and LLMs for multilingual document translation; optimized prompts and evaluated performance using BLEU(0.38) and ROUGE-L (Precision 60%, Recall-52%) to improve accuracy and reduce hallucinations.
+  * Serving as a core member of the Pune AI Tiger Team, driving AI enablement across the organization and partnering with cross-functional teams to solve complex, site-level operational challenges using advanced AI solutions.
 
 * **Nov 2023 – Oct 2024 · Senior Data Scientist** — Fractal Analytics
   * Led advanced analytics for global CPG clients covering pricing, demand forecasting, and consumer insights.
