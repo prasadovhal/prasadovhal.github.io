@@ -7,136 +7,48 @@ author_profile: true
 
 Education
 ======
-* M.Tech in Mathematical Modelling & Simulation, Centre for Modeling & Simulation, Savitribai Phule Pune University, Pune — 2019
-* B.E. in Mechanical Engineering, Pimpri Chinchwad College of Engineering, Savitribai Phule Pune University, Pune — 2015
+* M.Tech in Mathematical Modelling & Simulation (Data Science), Centre for Modeling & Simulation, Savitribai Phule Pune University — 2019
+* B.E. in Mechanical Engineering, Pimpri Chinchwad College of Engineering, Savitribai Phule Pune University — 2015
 
-Work experience
+Work Experience
 ======
-* Oct 2024-Present: **Senior Data Scientist**
-  * Red Hat India
-  * **Responsibilities include:**
-    * Designing and deploying production-grade AI solutions
-    * Leading project strategy, model development, and deployment pipelines
-    * Mentoring team members and guiding technical decisions
-    * Collaborating with cross-functional teams to deliver high-impact data products
+* **Oct 2024 – Present · Senior Data Scientist** — Red Hat India
+  * Building production-grade LLM applications, RAG pipelines, and agentic AI systems with MCP integrations.
+  * Designing LLM evaluation frameworks for hallucination benchmarking, retrieval quality, and agent trajectory assessment.
+  * Developing hybrid retrieval architectures combining BM25 sparse search with dense vector embeddings and cross-encoder re-ranking.
+  * Leading AI strategy, model development, and deployment pipelines across cross-functional teams.
 
-* Nov 2023-Oct 2024: **Senior Data Scientist**
-  * Fractal Analytics
-  * Led analytics initiatives for global CPG clients, developing advanced modelling frameworks for pricing, demand forecasting, and consumer insights.
-  * **Key contributions:**
-    * Developed models for Price & Weight Elasticity, Demand Transference, and Price Pack Architecture (PPA) optimization
-    * Scaled pricing models across multiple international markets
-    * Implemented MLOps pipelines and parallel processing frameworks to improve runtime efficiency
-    * Led sprint planning and analytics strategy in an Agile environment
-    * Built NLP pipelines for social media analytics, including:
-      * Sentiment Analysis
-      * Topic Modelling
-      * Identification of customer pain and passion points using NLP and Generative AI
-    * Implemented forecast reconciliation models for sales volume forecasting for CPG products
+* **Nov 2023 – Oct 2024 · Senior Data Scientist** — Fractal Analytics
+  * Led advanced analytics for global CPG clients covering pricing, demand forecasting, and consumer insights.
+  * Built Price & Weight Elasticity, Demand Transference, and Price Pack Architecture (PPA) optimization models scaled across international markets.
+  * Implemented MLOps pipelines and parallel processing frameworks to improve runtime efficiency.
+  * Built NLP pipelines for social media analytics — sentiment analysis, topic modelling, and Generative AI-based consumer insight extraction.
 
-* Aug 2019-Nov 2023: **Data Scientist**
-  * Red Hat India
-  * **Key achievements:**
-    * Developed Bayesian models to estimate services consumption probability for sales portfolio optimization
-    * Built time series forecasting systems for global financial metrics including:
-      * Sales (MAPE: 3%)
-      * Commissions (MAPE: 7%)
-      * Expenses (MAPE: 6%)
-      * Billings (MAPE: 4%)
-    * Applied hierarchical and grouped time series forecasting with reconciliation
-    * Designed Champion–Challenger model evaluation frameworks
-    * Achieved 1.15% MAPE forecasting accuracy for global par-rate predictions
-    * Developed an internal Python library for time series forecasting
-    * Implemented CI/CD pipelines using GitLab and OpenShift
-    * Built data pipelines for recommender systems and business analytics
-    * Automated finance data pipelines using SQL and Python
-    * Worked on highly imbalanced datasets (97:3) using feature engineering, model validation, and backtesting techniques
-    * Collaborated with data engineering teams to ensure data validation and pipeline stability
+* **Aug 2019 – Nov 2023 · Data Scientist** — Red Hat India
+  * Built time series forecasting systems for global financial metrics: Sales (MAPE 3%), Commissions (7%), Expenses (6%), Billings (4%), Par-rate (1.15%).
+  * Developed Bayesian models for services consumption probability to support sales portfolio optimization.
+  * Designed Champion–Challenger evaluation frameworks; applied hierarchical and grouped forecasting with reconciliation.
+  * Developed an internal Python library for time series forecasting; implemented CI/CD pipelines via GitLab and OpenShift.
+  * Worked on highly imbalanced datasets (97:3) using feature engineering, model validation, and backtesting.
 
-* Dec 2018 - Aug 2019: **Data Science Intern**
-  * CRISIL, India
-  * Developed a Credit Risk Modeling Tool using Python Dash for automated scorecard generation.
-  * **Key contributions:**
-    * Implemented machine learning and statistical techniques for credit risk assessment
-    * Integrated financial modelling and optimization methods into a GUI-based application
-    * Applied model interpretability techniques for black-box ML models as part of Master's thesis work
+* **Dec 2018 – Aug 2019 · Data Science Intern** — CRISIL India
+  * Built a Credit Risk Modeling Tool in Python Dash for automated scorecard generation.
+  * Applied ML and statistical techniques for credit risk assessment; integrated model interpretability for black-box models as part of M.Tech thesis.
 
-* Jul 2015–Jul 2016: **Graduate Apprentice Trainee**
-  * SKF Bearings, India
-  * Worked on manufacturing process optimization and production engineering.
-  * **Key contributions:**
-    * Led shop-floor team as Channel Team Engineer
-    * Implemented SMED improvements and Kaizen initiatives
-    * Managed tool presetting and assembly operations for production channels
-    * Implemented 5S manufacturing practices
-    * Participated in production optimization and skill development programs
+* **Jul 2015 – Jul 2016 · Graduate Apprentice Trainee** — SKF Bearings India
+  * Led shop-floor operations as Channel Team Engineer; implemented SMED, Kaizen, and 5S manufacturing practices.
 
-  
 Skills
 ======
-- **AI & Machine Learning Expertise**
-  - **Generative AI & LLM Systems**
-    - Agentic AI
-    - Large Language Models (LLMs) & Infrastructure
-    - Retrieval-Augmented Generation (RAG), Advanced Retrieval & Search
-    - Hybrid Retrieval (BM25 + Dense Retrieval)
-    - Vector Search Systems
-    - Re-ranking
-    - LLM Evaluation & Observability Frameworks
-    - Hallucination Detection & Benchmarking
-    - Prompt Engineering
-    - Fine-Tuning & Model Adaptation
-    - Model Context Protocol (MCP)
-  - **Machine Learning & Predictive Modeling**
-    - Machine Learning
-    - Deep Learning
-    - Natural Language Processing (NLP)
-    - Time Series Forecasting
-    - Feature Engineering
-    - Model Evaluation & Validation
-- **Programming & Technical Skills**
-  - **Languages**: Python, R, SQL
-  - **Libraries & Frameworks**: 
-    - PyTorch, TensorFlow, Keras, HuggingFace Transformers, 
-    - Scikit-learn, Sktime, NLTK 
-    - Matplotlib, Seaborn, Plotly
-- **Infrastructure & Deployment**
-  - **AI/ML Infrastructure**: 
-    - LangChain, LangGraph
-    - Vector Databases (FAISS), 
-    - LLM Inference Optimization
-  - **Data Platforms & Tools**: 
-    - Tableau 
-    - Excel, Google Sheets, Linux
-  - **Cloud & MLOps**: Docker, OpenShift, Git, GitLab CI/CD
-- **Mathematical & Statistical Foundations**
-  - Statistical Modeling
-  - Optimization
-  - Bayesian Methods
-  - Time Series Analysis
-  - Mathematical Modeling
-- **Soft Skills & Professional Attributes**
-  - Interdisciplinary research collaboration
-  - Analytical and computational problem solving
-  - Strategic thinking for AI systems development
-  - Technical communication and scientific writing
-  - Stakeholder collaboration and cross-functional teamwork
-  - Mentoring and knowledge sharing
-  - Agile project planning and execution
-  - Research-oriented mindset
-  - Critical thinking and innovation
-  - Managing and maintaining production ML systems
-- **Interests**
-  - Artificial Intelligence and Generative AI systems
-  - Scientific computing and mathematical modeling
-  - Optimization and data-driven systems
-  - Astronomy and cosmology
-  - Football and fitness
-  - Yoga and mindfulness
-  - Trekking and travel
-  - Reading books on science, history and philosophy
-  - Video games and anime
-  - Exploring emerging technologies.
+**Generative AI & LLMs** — Agentic AI, Large Language Models, RAG, Hybrid Retrieval (BM25 + Dense), Vector Search, Re-ranking, LLM Evaluation, Hallucination Detection, Prompt Engineering, Fine-Tuning, Model Context Protocol (MCP)
+
+**Machine Learning** — Machine Learning, Deep Learning, NLP, Time Series Forecasting, Feature Engineering, Feature Selection, Bayesian Methods, Stochastic Optimization, Model Evaluation & Validation
+
+**Languages** — Python, R, SQL
+
+**Libraries & Frameworks** — PyTorch, TensorFlow, Keras, HuggingFace Transformers, LangChain, LangGraph, Scikit-learn, Sktime, NLTK, Matplotlib, Seaborn, Plotly
+
+**Infrastructure** — FAISS, Vector Databases, Docker, OpenShift, GitLab CI/CD, Tableau, Linux
 
 Publications
 ======
@@ -151,9 +63,3 @@ Teaching
   {% include archive-single-talk-cv.html %}
 {% endfor %}
 </ul>
-
-Leadership
-======
-* Leading cross-functional teams in the development and deployment of Generative AI and data-driven solutions.
-* Led analytics initiatives and team coordination for global CPG projects at Fractal Analytics.
-* Supervised production operations and engineering teams as Channel Team Engineer at SKF Bearings, driving process improvements and operational efficiency.
