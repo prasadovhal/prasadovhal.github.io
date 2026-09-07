@@ -9,4 +9,4 @@ paperurl: 'https://ieeexplore.ieee.org/document/8869493'
 citation: 'Valadi, Jayaraman K., Prasad T. Ovhal, and Kunal J. Rathore. "A simple method of solution for multi-label feature selection." 2019 IEEE International Conference on Electrical, Computer and Communication Technologies (ICECCT). IEEE, 2019.'
 ---
 
-The study proposes a two-step algorithm for multi-label classification (MLC). It first decomposes the output label space into lower dimensions, then applies feature selection in the reduced space. This approach efficiently handles high-dimensional datasets and reduces computational load.
+Multi-label classification problems suffer from an exponentially large label space, making feature selection computationally expensive. This paper proposes a two-step approach: first compress the label space into a lower-dimensional representation, then run feature selection within that reduced space. The method significantly cuts computational cost while retaining predictive accuracy on high-dimensional benchmark datasets.

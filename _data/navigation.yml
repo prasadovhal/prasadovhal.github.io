@@ -6,8 +6,8 @@ main:
   - title: "Writing"
     url: /writing/
 
-#  - title: "Talks"
-#    url: /talks/    
+  - title: "Talks"
+    url: /talks/
 
   - title: "Teaching"
     url: /teaching/    
@@ -23,3 +23,6 @@ main:
 
   - title: "Projects"
     url: /projects/
+
+  - title: "Interests"
+    url: /portfolio/
