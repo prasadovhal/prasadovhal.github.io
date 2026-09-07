@@ -1,0 +1,4 @@
+ignore:
+  # rubyzip 2.x → 3.x is a breaking major-version change that github-pages cannot
+  # yet accommodate. Tracked upstream; revisit when github-pages lifts its constraint.
+  - GHSA-47m2-wp7j-p9vc   # CVE-2026-85396  rubyzip path-traversal pre-3.4.0

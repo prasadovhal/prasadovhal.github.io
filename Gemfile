@@ -10,6 +10,7 @@ source "https://rubygems.org"
 # Happy Jekylling!
 
 gem "github-pages", group: :jekyll_plugins
+gem "nokogiri", ">= 1.19.4"   # force patched version; fixes CVEs in 1.18.x
 
 # If you want to use Jekyll native, uncomment the line below.
 # To upgrade, run `bundle update`.
