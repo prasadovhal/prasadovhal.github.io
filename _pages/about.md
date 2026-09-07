@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About me"
+title: About me
 author_profile: true
 redirect_from: 
   - /about/
@@ -8,17 +8,17 @@ redirect_from:
 ---
 
 
-***"[Black holes](https://science.nasa.gov/universe/black-holes/), governed by precise mathematics and optimization, shape the universe's structure. Likewise, life’s challenges are equations of growth, refining our path and adding purpose to our existence.."***
+***"[Black holes](https://science.nasa.gov/universe/black-holes/), governed by precise mathematics and optimization, shape the universe’s structure. Likewise, life’s challenges are equations of growth, refining our path and adding purpose to our existence."***
 
-**TL;DR:** Senior Data Scientist with 7+ years in AI, specializing in LLMs, RAG, Agentic AI, and MCP-based systems. Currently building production-grade AI solutions at Red Hat, with experience across multiple domains. Also contributes to academia, research and actively mentors aspiring data scientists.
+**TL;DR:** Senior Data Scientist with 7+ years in AI, specializing in LLMs, RAG, Agentic AI, and MCP-based systems. Currently building production-grade AI solutions at Red Hat, with experience across multiple domains. Also contributes to academia as a Teaching Associate and guides junior colleagues and students in data science and AI.
 
 ---
 
-Prasad Ovhal is a Senior Data Scientist based in [Pune](https://www.britannica.com/place/Pune), Maharashtra, India — often referred to as the Oxford of the East. With over more than 7 years of experience in applied Artificial Intelligence and Data Science, his work focuses on designing and deploying scalable AI systems powered by Generative AI and Large Language Models (LLMs).
+Prasad Ovhal is a Senior Data Scientist based in [Pune](https://www.britannica.com/place/Pune), Maharashtra, India — often referred to as the Oxford of the East. With more than 7 years of experience in applied Artificial Intelligence and Data Science, his work focuses on designing and deploying scalable AI systems powered by Generative AI and Large Language Models (LLMs).
 
 His current work centers around LLM-powered applications, Retrieval-Augmented Generation (RAG), hybrid retrieval architectures, vector search systems, LLM evaluation frameworks, hallucination benchmarking, agentic AI systems, and Model Context Protocol (MCP) integrations, alongside building data science and machine learning solutions for predictive modeling, forecasting, and advanced analytics. The goal is to develop **reliable, scalable, and production-ready AI systems capable of solving complex real-world problems across multiple domains.
 
-Prasad currently works at Red Hat India and previously worked as a Data Scientist at Fractal Analytics, where he developed machine learning solutions across domains including credit risk, corporate finance, consumer packaged goods (CPG), cybersecurity, medical research, meteorology, and bioinformatics.
+Prasad currently works at Red Hat India and has previously held roles at Fractal Analytics and CRISIL, with additional applied research carried out during his M.Tech. Across these organisations and research work, his experience spans domains including credit risk, corporate finance, consumer packaged goods (CPG), cybersecurity, medical research, meteorology, and bioinformatics.
 
 He holds a Master’s degree in Mathematical Modelling & Simulation (Data Science specialization) and a Bachelor’s degree in Mechanical Engineering, both from [Savitribai Phule Pune University](https://en.wikipedia.org/wiki/Savitribai_Phule_Pune_University).
 
