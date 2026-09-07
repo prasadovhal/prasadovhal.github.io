@@ -10,6 +10,8 @@ location: "Pune, Maharashtra, India"
 
 Collaboration with C-DAC, Pune University Campus. Applying Machine Learning for Ayurveda Prakriti (Dosha) Classification. Addressing it as a Multi-class and Multi-label problem.
 
+Note: Due to confidentiality of the data, code cannot be shared.
+
 <!-- Local Vs. Global explanations
 ======
 

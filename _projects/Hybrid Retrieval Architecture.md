@@ -6,6 +6,7 @@ permalink: /projects/retrieval
 venue: "Red Hat"
 date: 2026-03-01
 location: "Pune, Maharashtra, India"
+link: [Project repository](https://github.com/prasadovhal/rag_tutorials/tree/main/codes)
 ---
 
 * Designed a hybrid retrieval pipeline combining sparse retrieval (BM25) and dense embedding-based search to improve document recall and ranking accuracy.

@@ -6,6 +6,7 @@ permalink: /projects/Scalable_LLM_Systems
 venue: "Red Hat"
 date: 2026-03-01
 location: "Pune, Maharashtra, India"
+link: [Project repository](https://github.com/prasadovhal/agentic_ai_tutorials)
 ---
 
 * Developed scalable infrastructure for high-throughput LLM inference and deployment.

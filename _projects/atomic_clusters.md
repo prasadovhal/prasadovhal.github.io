@@ -10,6 +10,8 @@ location: "Pune, Maharashtra, India"
 
 Collaboration with CSIR-National Chemical Laboratory, Pune: Machine Learning-based classification of atomic clusters of Gallium considering shape, atomic distances, and geometrical properties. Utilizing both supervised and unsupervised Machine Learning methods.
 
+Note: Due to confidentiality of the data, code cannot be shared.
+
 <!-- Local Vs. Global explanations
 ======
 

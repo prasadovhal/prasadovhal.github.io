@@ -6,6 +6,7 @@ permalink: /projects/evergreen
 venue: "Pune University, Centre for Modelling & Simulation"
 date: 2023-02-21
 location: "Pune, Maharashtra, India"
+link: [Project repository](https://github.com/prasadovhal/natural-language-processing/tree/main/competitions/StumbleUpon)
 ---
 
 Built a classifier which will evaluate a large set of URLs and label them as either evergreen or ephemeral. Used EDA, Text Data Preprocessing, Word Embedding, Feature engineering, Machine Learning models such as CatBoost and Logistic regression, Deep Learning models such as LSTM and BERT

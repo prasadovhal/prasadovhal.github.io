@@ -10,6 +10,8 @@ location: "Pune, Maharashtra, India"
 
 Collaboration with Indian Institute of Tropical Meteorology (IITM), Pune. Using ensemble techniques of Machine Learning for prediction of Indian summer monsoon rainfall.
 
+Note: Due to confidentiality of the data, code cannot be shared.
+
 <!-- Local Vs. Global explanations
 ======
 

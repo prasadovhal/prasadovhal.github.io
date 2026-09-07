@@ -6,6 +6,7 @@ permalink: /projects/LLM_QnA
 venue: "Red Hat"
 date: 2026-03-01
 location: "Pune, Maharashtra, India"
+link: [Project repository](https://github.com/prasadovhal/rag_tutorials/tree/main/competitions/LLM_science_exam)
 ---
 
 * Built a knowledge-grounded question-answering system using Wikipedia corpus and transformer-based language models.
