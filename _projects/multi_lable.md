@@ -6,7 +6,7 @@ permalink: /projects/multi_lable
 venue: "Pune University, Centre for Modelling & Simulation"
 date: 2018-06-12
 location: "Pune, Maharashtra, India"
-link: [Project repository](https://github.com/prasadovhal/A-Simple-Method-of-Solution-For-Multi-label-Feature-Selection)
+link: "https://github.com/prasadovhal/A-Simple-Method-of-Solution-For-Multi-label-Feature-Selection"
 ---
 
 Reducing multi-label dataset dimensionality through feature selection. Utilizing filter methods like Multilabel Informed Feature Selection, Robust Feature Selection, and Mutual Information

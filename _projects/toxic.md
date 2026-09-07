@@ -6,7 +6,7 @@ permalink: /projects/toxic
 venue: "Pune University, Centre for Modelling & Simulation"
 date: 2023-02-21
 location: "Pune, Maharashtra, India"
-link: [Project repository](https://github.com/prasadovhal/natural-language-processing/tree/main/competitions/Toxic_comment_classfication)
+link: "https://github.com/prasadovhal/natural-language-processing/tree/main/competitions/Toxic_comment_classfication"
 ---
 
 Built a multi-label model which is capable of accurately detecting different types of toxicity like threats, obscenity, insults, and identity-based hate from comments made on social media posts. Used Data Transformation strategies such as Binary relevance, Label PowerSet, Classifier Chains and RaKel to solve multi-label problem. Used EDA, Text Data Preprocessing, Word Embedding, and Machine Learning models such as XGBoost and Logistic regression. Deep Learning models such as LSTM, and BERT.
