@@ -24,7 +24,7 @@ He holds a Master’s degree in Mathematical Modelling & Simulation (Data Scienc
 
 Alongside industry work, he contributes to academia as a part-time Teaching Associate since 2019 at the [Centre for Modeling & Simulation](http://cms.unipune.ac.in/) and 2024 at the [Bioinformatics Department](https://bioinfo.net.in/), both at Pune University. Also previously served as a Teaching Associate at [Flame University](https://www.flame.edu.in/). Alongside professional and academic work, he actively engages in data science and AI career counselling, helping aspiring professionals navigate learning paths, industry expectations, and real-world project building.
 
-His research focuses on the sustainable development and deployment of data-driven models and optimization techniques across interdisciplinary domains, and he has published several research papers in collaboration with universities across India under the guidance of [Prof. Jayaraman Valadi](https://www.flame.edu.in/faculty/jayaraman-v-k)
+His research focuses on the sustainable development and deployment of data-driven models and optimization techniques across interdisciplinary domains, and he has published several research papers in collaboration with universities across India under the guidance of [Prof. Jayaraman Valadi](https://www.flame.edu.in/faculty/jayaraman-v-k).
 
 Outside of professional work, interests include football, fitness, yoga, trekking, reading, traveling, video games, watching anime, and exploring ideas related to science and the universe.
 

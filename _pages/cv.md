@@ -54,14 +54,8 @@ Skills
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+See the [Publications](/publications/) page.
 
 Teaching
 ======
-<ul>
-{% for post in site.teaching reversed %}
-  {% include archive-single-talk-cv.html %}
-{% endfor %}
-</ul>
+See the [Teaching](/teaching/) page.
