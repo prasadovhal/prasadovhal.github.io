@@ -4,7 +4,8 @@ collection: teaching
 type: "Postgraduate course"
 permalink: /teaching/2019-flame-teaching-1
 venue: "Flame University, Computing and Data Sciences "
-date: 2019-08-01 to 2019-11-30
+date: 2019-08-01
+date_end: "Aug 2019 – Nov 2019"
 location: "Pune, India"
 ---
 

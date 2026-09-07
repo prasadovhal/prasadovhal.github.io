@@ -4,7 +4,8 @@ collection: teaching
 type: "Postgraduate course"
 permalink: /teaching/2023-cms-teaching-4
 venue: "Pune University, Centre for Modelling & Simulation "
-date: 2019-08-01 to Present
+date: 2019-08-01
+date_end: "Aug 2019 – Present"
 location: "Pune, India"
 ---
 
