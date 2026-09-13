@@ -42,15 +42,11 @@ Work Experience
 
 Skills
 ======
-**Generative AI & LLMs** — Agentic AI, Large Language Models, RAG, Hybrid Retrieval (BM25 + Dense), Vector Search, Re-ranking, LLM Evaluation, Hallucination Detection, Prompt Engineering, Fine-Tuning, Model Context Protocol (MCP)
-
-**Machine Learning** — Machine Learning, Deep Learning, NLP, Time Series Forecasting, Feature Engineering, Feature Selection, Bayesian Methods, Stochastic Optimization, Model Evaluation & Validation
-
-**Languages** — Python, R, SQL
-
-**Libraries & Frameworks** — PyTorch, TensorFlow, Keras, HuggingFace Transformers, LangChain, LangGraph, Scikit-learn, Sktime, NLTK, Matplotlib, Seaborn, Plotly
-
-**Infrastructure** — FAISS, Vector Databases, Docker, OpenShift, GitLab CI/CD, Tableau, Linux
+* **Generative AI & LLMs** — Agentic AI, Large Language Models, RAG, Hybrid Retrieval (BM25 + Dense), Vector Search, Re-ranking, LLM Evaluation, Hallucination Detection, Prompt Engineering, Fine-Tuning, Model Context Protocol (MCP)
+* **Machine Learning** — Machine Learning, Deep Learning, NLP, Time Series Forecasting, Feature Engineering, Feature Selection, Bayesian Methods, Stochastic Optimization, Model Evaluation & Validation
+* **Languages** — Python, R, SQL
+* **Libraries & Frameworks** — PyTorch, TensorFlow, Keras, HuggingFace Transformers, LangChain, LangGraph, Scikit-learn, Sktime, NLTK, Matplotlib, Seaborn, Plotly
+* **Infrastructure** — FAISS, Vector Databases, Docker, OpenShift, GitLab CI/CD, Tableau, Linux
 
 Publications
 ======
