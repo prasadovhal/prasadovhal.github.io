@@ -9,37 +9,49 @@ location: "Pune, Maharashtra, India"
 link: "https://github.com/prasadovhal/customer-support-platform"
 ---
 
-Customer support operations at scale face three compounding challenges: accurate intent routing, context-aware knowledge retrieval, and safe execution of account-level actions without over-automation. This platform addresses all three — classifying support tickets with 15 scikit-learn pipelines, retrieving answers through a hybrid BM25 + dense vector RAG system, and orchestrating actions through a LangGraph agent that enforces deterministic policy rules and escalates high-risk operations to human approvers. Built across 1,000 structured tickets and 90 knowledge documents, it serves as a production-grade reference system demonstrating Principal Data Scientist depth: end-to-end ML evaluation, retrieval benchmarking with Recall/MRR/nDCG, LLM-as-a-Judge quality assessment, and CI regression gates that block deployments on metric degradation. Full architecture and benchmark details in [project_overview.md](https://github.com/prasadovhal/customer-support-platform/blob/main/docs/project_overview.md).
+Routing a support ticket correctly, finding the right answer, and executing account actions safely are three problems that most systems solve in isolation. This project treats them as one pipeline. A LangGraph agent classifies intent using one of 15 trained scikit-learn models, retrieves context through a hybrid BM25 and pgvector search, applies deterministic policy rules, and routes high-risk operations to human approvers. The data foundation is 1,000 support tickets across four channels and 90 knowledge documents chunked into 185 passages. Full architecture and benchmarks in [project_overview.md](https://github.com/prasadovhal/customer-support-platform/blob/main/docs/project_overview.md).
 
 **Architecture at a Glance**
-* **Data layer:** 1,000 support tickets (22 attributes, July 2024–December 2025, 4 channels) + 90 knowledge documents chunked into 185 retrievable passages
-* **ML pipelines:** TF-IDF (10k features) → {Logistic Regression, Random Forest, Gradient Boosting} × 5 classification tasks = 15 trained models (category, priority, sentiment, escalation, routing)
-* **Hybrid RAG:** BM25 (in-memory) + pgvector HNSW dense search → Reciprocal Rank Fusion → cross-encoder reranking → top-5 context passages passed to LLM
-* **Agent orchestration:** LangGraph 4-node state graph (classify → retrieve → handle_action → generate) with conditional branching and keyword-heuristic fallback
-* **Policy engine:** Stateless deterministic rules for refunds, order cancellations, and account changes; high-risk actions routed to human approval queue via Celery Beat with audit trail
-* **Observability:** Prometheus metrics + LangFuse LLM tracing + OpenTelemetry → Jaeger; GitHub Actions CI regression gate blocks on >5% degradation in Recall@5, nDCG@5, or MRR
+* **Data layer:** 1,000 support tickets (22 attributes, July 2024-December 2025, 4 channels) + 90 knowledge documents chunked into 185 retrievable passages.
+* **ML pipelines:** TF-IDF (10k features) paired with three classifiers across 5 tasks = 15 trained models (category, priority, sentiment, escalation, routing).
+* **Hybrid RAG:** BM25 + pgvector HNSW dense search, merged via Reciprocal Rank Fusion, reranked with a cross-encoder, top-5 passages passed to LLM.
+* **Agent orchestration:** LangGraph 4-node state graph (classify, retrieve, handle_action, generate) with conditional branching and keyword-heuristic fallback.
+* **Policy engine:** Stateless deterministic rules for refunds, cancellations, and account changes; high-risk actions routed to a human approval queue via Celery Beat.
+* **Observability:** Prometheus + LangFuse + OpenTelemetry to Jaeger; CI regression gate blocks on more than 5% degradation in Recall@5, nDCG@5, or MRR.
 
 **Machine Learning Pipelines (15 trained models across 5 classification tasks)**
-* Built TF-IDF (10k features, unigram+bigram, sublinear TF) → {Logistic Regression, Random Forest, Gradient Boosting} pipelines for intent category, priority, sentiment, escalation, and routing classification; stratified 60/20/20 train-val-test split on 1,000 support tickets with 22 attributes.
-* Routing classifier: 97.0% test accuracy, macro-F1 0.845 across 7 support teams; escalation binary classifier: 54.5–80% accuracy with class-balanced weighting on 85/15 split; priority 4-class: 30–43.5% accuracy with P0 recall up to 33% on severely imbalanced data (P0 = 2.9%).
-* Applied `class_weight='balanced'` strategy for priority, sentiment, and escalation tasks; documented signal-weakness root cause for synthetic-data near-random performance on sentiment (23.5–40% accuracy, macro-F1 0.236–0.248).
+
+The feature pipeline is TF-IDF (10k features, unigram+bigram, sublinear TF) paired with three classifiers (Logistic Regression, Random Forest, Gradient Boosting) across five tasks: category, priority, sentiment, escalation, and routing. Split is stratified 60/20/20 on 1,000 tickets.
+
+Routing reached 97.0% test accuracy, macro-F1 0.845 across 7 support teams. Escalation (binary, 85/15 split) reached 54.5-80% with class-balanced weighting, P0 recall up to 33%. Priority (4-class) sits at 30-43.5%, with P0 at only 2.9% of the dataset.
+
+`class_weight='balanced'` was applied for priority, sentiment, and escalation. Sentiment (23.5-40% accuracy, macro-F1 0.236-0.248) and priority are near-random; the root cause is that synthetic ticket bodies carry no label signal, only subject lines do.
 
 **Hybrid Retrieval-Augmented Generation (RAG) Architecture**
-* Designed BM25 (rank-bm25, in-memory, 185 chunks) + dense vector search (BAAI/bge-base-en-v1.5, 768-dim, L2-normalized, HNSW index on pgvector) → Reciprocal Rank Fusion (K=60) → cross-encoder reranking (ms-marco-MiniLM-L-6-v2) pipeline over 90 knowledge documents.
-* Evaluated over 62 queries: Recall@5 = 0.503, Recall@10 = 0.653, MRR = 0.388, nDCG@5 = 0.389; Precision@5 = 0.123; chunk size 1,500 chars (~400 tokens) with 200-char overlap; context budget 6,000 chars per response.
-* Retrieval difficulty breakdown: Easy (n=16) Recall@5 = 0.604 / MRR = 0.375; Medium (n=28) 0.500 / 0.400; Hard (n=14) 0.536 / 0.492; Adversarial (n=4) 0.000 / 0.000.
 
-**Generation Quality & LLM-as-a-Judge Evaluation**
-* Conducted groundedness evaluation over 70 golden QA pairs (BM25 context): mean context coverage 0.594, grounded rate (coverage ≥ 0.70) = 30% (21/70), hallucination-risk rate (coverage < 0.30) = 5.7% (4/70).
-* LLM-as-a-Judge (Mistral judge, 15 QA pairs): Faithfulness 4.2/5.0 (84%), Answer Relevance 4.3/5.0 (87%), Correctness 4.1/5.0 (81%); identified systematic underestimation by heuristic token-F1 (0.074) and Jaccard (0.110) proxies vs. LLM-judge paraphrase recognition.
+The retrieval pipeline combines BM25 (rank-bm25, in-memory, 185 chunks) with dense vector search (BAAI/bge-base-en-v1.5, 768-dim, L2-normalized, HNSW index on pgvector). Candidates from both systems are merged using Reciprocal Rank Fusion (K=60), then reranked with a cross-encoder (ms-marco-MiniLM-L-6-v2) before the top-5 passages go to the LLM.
 
-**Agentic LangGraph Workflow & Intent Classification**
-* Orchestrated a 4-node LangGraph state graph (classify → retrieve → handle_action → generate) with conditional branching; intent ML classifier: 60.0% accuracy (24/40 free-text messages); keyword-heuristic fallback: 78.0% accuracy (39/50 scenarios).
-* Routing performance (50-scenario eval set): retrieval routing 100% (50/50), greeting skip rate 100% (4/4), approval routing 62.0% (31/50), policy compliance 100%; end-to-end workflow: 21/21 (100%) pass rate with mocked intent across all 12 use cases.
+Evaluated on 62 queries: Recall@5 = 0.503, Recall@10 = 0.653, MRR = 0.388, nDCG@5 = 0.389, Precision@5 = 0.123. Chunk size is 1,500 chars (~400 tokens) with 200-char overlap; context budget per response is 6,000 chars.
 
-**Policy Engine & Human-in-the-Loop Approvals**
-* Implemented deterministic stateless policy engine for refund (auto-approve ≤$50/$100/$200 by customer segment; deny if order age > 30 days), order cancellation (auto-approve if status ∈ {pending, processing}; deny if delivered/cancelled/refunded), and account/email changes (always require approval).
-* Built Celery Beat approval expiration workflow; full audit trail to PostgreSQL `audit_log` table with UUID, timestamp, actor, action, and reason; circuit breaker + 3-attempt exponential-backoff on Ollama LLM client.
+Retrieval by difficulty: Easy (n=16) Recall@5 = 0.604, MRR = 0.375; Medium (n=28) 0.500, 0.400; Hard (n=14) 0.536, 0.492; Adversarial (n=4) 0.000, 0.000.
+
+**Generation Quality and LLM-as-a-Judge Evaluation**
+
+Groundedness was evaluated on 70 golden QA pairs using BM25 context. Mean context coverage was 0.594. Only 30% of responses (21/70) met the grounded threshold (coverage >= 0.70), and 5.7% (4/70) were flagged as hallucination risk (coverage < 0.30).
+
+LLM-as-a-Judge scoring (Mistral judge, 15 QA pairs): Faithfulness 4.2/5.0 (84%), Answer Relevance 4.3/5.0 (87%), Correctness 4.1/5.0 (81%). Heuristic proxies (token-F1 = 0.074, Jaccard = 0.110) scored far lower because they measure lexical overlap, not paraphrase quality. For paraphrase-heavy outputs, judge-based scoring is the more reliable signal.
+
+**Agentic LangGraph Workflow and Intent Classification**
+
+The agent runs as a 4-node LangGraph state graph (classify, retrieve, handle_action, generate) with conditional branching at each step. The ML intent classifier reached 60.0% accuracy (24/40 free-text messages). A keyword-heuristic fallback scored 78.0% (39/50 scenarios), so both are wired in, with the heuristic taking priority for most intents.
+
+On a 50-scenario eval set: retrieval routing 100% (50/50), greeting skip rate 100% (4/4), approval routing 62.0% (31/50), policy compliance 100%. End-to-end workflow passes 21/21 with mocked intent across all 12 use cases.
+
+**Policy Engine and Human-in-the-Loop Approvals**
+
+The policy engine is stateless and deterministic. Refunds auto-approve up to $50/$100/$200 depending on customer segment, and are denied if the order is older than 30 days. Cancellations auto-approve for pending or processing orders, are denied for delivered or already-cancelled orders, and require approval if shipped. Account and email changes always require approval.
+
+Pending approvals expire via Celery Beat. Every decision is logged to a PostgreSQL `audit_log` table with UUID, timestamp, actor, action, and reason. The Ollama LLM client uses a circuit breaker with 3-attempt exponential backoff.
 
 **Run It Yourself — Step-by-Step Setup**
 
@@ -65,7 +77,7 @@ Full guide: [docs/deployment/local_setup.md](https://github.com/prasadovhal/cust
    ```bash
    poetry run alembic upgrade head
    ```
-5. **Start the API** — interactive docs at `http://localhost:8000/docs`
+5. **Start the API** (interactive docs at `http://localhost:8000/docs`)
    ```bash
    poetry run uvicorn app.main:app --reload --port 8000
    ```
@@ -81,13 +93,20 @@ Full guide: [docs/deployment/local_setup.md](https://github.com/prasadovhal/cust
      poetry run pytest tests/integration/ -q
    ```
 
-**Observability & MLOps**
-* Three-layer observability: Prometheus metrics (HTTP latency histograms, agent/LLM/RAG call counts, approval outcomes), LangFuse LLM tracing (per-request traces with classify/retrieve/handle/generate spans and groundedness correlation), OpenTelemetry → Jaeger infra spans (FastAPI, SQLAlchemy, Redis, Celery, httpx, 16-char trace IDs).
-* CI/CD regression gate in GitHub Actions: Recall@5, nDCG@5, MRR with ≤5% degradation tolerance; 158 unit tests + 43 integration tests (179 total); ruff lint + mypy type checking; Docker multi-service build (FastAPI, PostgreSQL 15 + pgvector, Redis, Celery).
+**Observability and MLOps**
+
+Observability runs across three tools. Prometheus handles HTTP latency histograms and call counts for agent, LLM, and RAG operations. LangFuse traces each request with child spans across classify, retrieve, handle, and generate steps, including groundedness correlation. OpenTelemetry feeds Jaeger for infra-level spans across FastAPI, SQLAlchemy, Redis, Celery, and httpx.
+
+The GitHub Actions pipeline runs ruff lint, mypy type checking, 158 unit tests, and 43 integration tests. A retrieval regression gate blocks the build if Recall@5, nDCG@5, or MRR degrades more than 5% from baseline. The final step builds Docker images for all services.
 
 **What This Demonstrates**
-* **Evaluation framework design:** Defined the right metrics at each layer — Recall@K/MRR/nDCG for retrieval, coverage + LLM-as-a-Judge for generation, accuracy/F1 per class for classifiers — rather than relying on a single aggregate score; identified where heuristic proxies (token-F1 = 0.074, Jaccard = 0.110) systematically mislead and replaced them with judge-based assessment.
-* **Intellectual honesty in benchmarking:** Priority (30–43%) and sentiment (23–40%) classifiers perform near-random; rather than discarding these results, the project diagnoses the root cause (synthetic data encodes label only in subject line, not body), documents it, and uses it to argue for real data collection — the kind of honest trade-off reasoning expected at principal level.
-* **Full-stack ML system design:** Owns every layer from raw data (1,000 tickets, 22 attributes) through feature engineering, model training, hybrid retrieval, agent orchestration, policy enforcement, and production observability — demonstrating breadth without losing depth at any layer.
-* **Production MLOps thinking:** Regression gates that block CI on metric degradation, circuit breakers on LLM calls, Celery-managed approval expiry, structured audit logging, and a three-signal observability stack reflect operational maturity beyond model accuracy.
-* **Principled architecture trade-offs:** Chose RRF over learned fusion to avoid training data dependency on retrieval; chose keyword-heuristic fallback over a pure ML classifier after measuring 60% vs. 78% accuracy; chose stateless policy rules over an LLM for deterministic compliance — each decision documented in 13 Architecture Decision Records.
+
+**Evaluation framework design:** Different system layers need different metrics. Retrieval uses Recall@K, MRR, and nDCG. Generation uses context coverage and LLM-as-a-Judge scoring. Classifiers are evaluated per class. Heuristic proxies (token-F1 = 0.074, Jaccard = 0.110) were measured, found unreliable for paraphrase-heavy outputs, and replaced with judge-based assessment.
+
+**Honest benchmarking:** Priority (30-43%) and sentiment (23-40%) classifiers perform near-random on this dataset. The root cause is documented: synthetic ticket bodies carry no label signal, only subject lines do. These results are presented as evidence for real data collection, not discarded.
+
+**Full-stack system design:** The project covers every layer: raw data (1,000 tickets, 22 attributes), feature engineering, 15 classification models, hybrid retrieval with pgvector and BM25, a LangGraph agent, a deterministic policy engine, and a three-tool observability stack. Each layer is evaluated against defined targets.
+
+**Production MLOps:** The CI pipeline blocks on retrieval metric regression. The LLM client has a circuit breaker. Approval expiry is managed by Celery Beat. Every policy decision is audit-logged. These are not afterthoughts; they were scoped as first-class requirements.
+
+**Architecture decisions:** RRF was chosen over learned fusion to avoid a dependency on labeled retrieval data. The keyword heuristic was chosen over the ML classifier after measuring 60% vs. 78% accuracy on the eval set. Policy rules were implemented as stateless logic rather than LLM prompts to guarantee deterministic compliance. All 13 key decisions are documented in Architecture Decision Records.
