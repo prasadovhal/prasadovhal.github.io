@@ -12,12 +12,8 @@ link: "https://github.com/prasadovhal/customer-support-platform"
 Routing a support ticket correctly, finding the right answer, and executing account actions safely are three problems that most systems solve in isolation. This project treats them as one pipeline. A LangGraph agent classifies intent using one of 15 trained scikit-learn models, retrieves context through a hybrid BM25 and pgvector search, applies deterministic policy rules, and routes high-risk operations to human approvers. The data foundation is 1,000 support tickets across four channels and 90 knowledge documents chunked into 185 passages. Full architecture and benchmarks in [project_overview.md](https://github.com/prasadovhal/customer-support-platform/blob/main/docs/project_overview.md).
 
 **Architecture at a Glance**
-* **Data layer:** 1,000 support tickets (22 attributes, July 2024-December 2025, 4 channels) + 90 knowledge documents chunked into 185 retrievable passages.
-* **ML pipelines:** TF-IDF (10k features) paired with three classifiers across 5 tasks = 15 trained models (category, priority, sentiment, escalation, routing).
-* **Hybrid RAG:** BM25 + pgvector HNSW dense search, merged via Reciprocal Rank Fusion, reranked with a cross-encoder, top-5 passages passed to LLM.
-* **Agent orchestration:** LangGraph 4-node state graph (classify, retrieve, handle_action, generate) with conditional branching and keyword-heuristic fallback.
-* **Policy engine:** Stateless deterministic rules for refunds, cancellations, and account changes; high-risk actions routed to a human approval queue via Celery Beat.
-* **Observability:** Prometheus + LangFuse + OpenTelemetry to Jaeger; CI regression gate blocks on more than 5% degradation in Recall@5, nDCG@5, or MRR.
+
+The data layer is 1,000 support tickets (22 attributes, July 2024-December 2025, 4 channels) and 90 knowledge documents chunked into 185 retrievable passages. On top of that, TF-IDF paired with three classifiers runs across 5 tasks, producing 15 trained models covering category, priority, sentiment, escalation, and routing. Retrieval combines BM25 and pgvector HNSW dense search, merges candidates via Reciprocal Rank Fusion, reranks with a cross-encoder, and passes the top-5 passages to the LLM. The agent is a LangGraph 4-node state graph (classify, retrieve, handle_action, generate) with conditional branching and a keyword-heuristic fallback. The policy engine applies stateless deterministic rules for refunds, cancellations, and account changes, with high-risk actions routed to a human approval queue via Celery Beat. Observability covers Prometheus, LangFuse, and OpenTelemetry to Jaeger; the CI regression gate blocks on more than 5% degradation in Recall@5, nDCG@5, or MRR.
 
 **Machine Learning Pipelines (15 trained models across 5 classification tasks)**
 
