@@ -24,5 +24,8 @@ main:
   - title: "Projects"
     url: /projects/
 
+  - title: "Open Source"
+    url: /open-source/
+
   - title: "Interests"
     url: /portfolio/
