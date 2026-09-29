@@ -61,6 +61,14 @@ p {
   margin-bottom: 1.3em;
 }
 
+/* Justify body text across page and archive layouts. */
+.page__content,
+.archive {
+  p, li, dd {
+    text-align: justify;
+  }
+}
+
 u,
 ins {
   text-decoration: none;
